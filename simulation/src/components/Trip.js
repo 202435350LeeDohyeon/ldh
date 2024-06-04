@@ -117,7 +117,7 @@ const Trip = (props) => {
     return () => window.cancelAnimationFrame(animation.id);
   }, [animation, animate]);
 
-  // 버티포트
+  
   const layers = [
     new TripsLayer({  
       id: 'trips',
