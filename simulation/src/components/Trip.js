@@ -8,7 +8,6 @@ import {AmbientLight, PointLight, LightingEffect} from '@deck.gl/core';
 import {TripsLayer} from '@deck.gl/geo-layers';
 
 import Slider from "@mui/material/Slider";
-import legend from "../image/legend.png";
 import "../css/trip.css";
 
 
@@ -50,8 +49,8 @@ const DEFAULT_THEME = {
 };
 
 const INITIAL_VIEW_STATE = { 
-  longitude: 126.98, // 126.98 , -74
-  latitude: 37.57, // 37.57 , 40.72
+  longitude: 127.130622, // 126.98 , -74
+  latitude: 37.451748, // 37.57 , 40.72
   zoom: 10,
   pitch: 45,
   bearing: 0
@@ -162,7 +161,6 @@ const Trip = (props) => {
         onChange={SliderChange}
         track="inverted"
       />
-      <img className="legend" src={legend} alt="legend" ></img>
     </div>
   );
 };
