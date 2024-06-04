@@ -51,16 +51,16 @@ const DEFAULT_THEME = {
 const INITIAL_VIEW_STATE = { 
   longitude: 127.130622, // 126.98 , -74
   latitude: 37.451748, // 37.57 , 40.72
-  zoom: 10,
-  pitch: 45,
+  zoom: 15,
+  pitch: 30,
   bearing: 0
 };
 
 
 
 const minTime = 0;
-const maxTime = 130;
-const animationSpeed = 1;
+const maxTime = 45;
+const animationSpeed = 0.5;
 const mapStyle = "mapbox://styles/spear5306/ckzcz5m8w002814o2coz02sjc";
 
 //  자신의 mapbox api key 입력
