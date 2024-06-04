@@ -23,10 +23,10 @@ const App = () => {
   const [isloaded, setIsLoaded] = useState(false);
   
   const getData = useCallback(async () => {
-
     const TRIP = await fetchData("trips");
 
     setTrip((prev) => TRIP);
+
     setIsLoaded(true);
   }, []);
 
@@ -38,10 +38,7 @@ const App = () => {
     <div className="container">
       {!isloaded && <Splash />}
       {isloaded && (
-        <Trip 
-                  trip={trip}
-
-              />
+        <Trip trip={trip} />
       )}
     </div>
   );

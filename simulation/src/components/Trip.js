@@ -105,6 +105,7 @@ const Trip = (props) => {
   const [animation] = useState({});
 
   const trip = props.trip;
+  // const trip = currData(props.trip, time);
 
   const animate = useCallback(() => {
     setTime((time) => returnAnimationTime(time));
@@ -123,7 +124,7 @@ const Trip = (props) => {
       data: trip,
       getPath: d => d.route,
       getTimestamps: d => d.timestamp,
-      getColor: [255, 0, 0],
+      getColor: [255, 255, 0],
       opacity: 1,
       widthMinPixels: 7,
       rounded: true,
