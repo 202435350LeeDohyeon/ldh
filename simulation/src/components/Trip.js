@@ -49,8 +49,8 @@ const DEFAULT_THEME = {
 };
 
 const INITIAL_VIEW_STATE = { 
-  longitude: 127.130622, // 126.98 , -74
-  latitude: 37.451748, // 37.57 , 40.72
+  longitude: 127.135840, // 126.98 , -74
+  latitude: 37.442836, // 37.57 , 40.72
   zoom: 15,
   pitch: 30,
   bearing: 0
@@ -59,7 +59,7 @@ const INITIAL_VIEW_STATE = {
 
 
 const minTime = 0;
-const maxTime = 45;
+const maxTime = 350;
 const animationSpeed = 0.5;
 const mapStyle = "mapbox://styles/spear5306/ckzcz5m8w002814o2coz02sjc";
 
